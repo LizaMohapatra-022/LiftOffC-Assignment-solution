@@ -2,10 +2,15 @@
 
 int main()
 {
-    int a,b;
-    printf("NAME: LIZA MOHAPATRA \n");
-    printf("REGISTRATION NO: O22 \n");
-    printf("BRANCH: CIVIL \n");
-    printf("HOBBIES: READING, POETRY WRITING AND CYCLING\n");
-return 0;
+    char n,m,b,h;
+    int regd;
+    printf("ENTER YOUR NAME:");
+    scanf("%s %s",&n,&m);
+    printf("ENTER YOUR REGISTRATION NO:");
+    scanf("%d", &regd);
+    printf("ENTER YOUR BRANCH:");
+    scanf("%s", &b);
+    printf("ENTER YOUR HOBBIES:");
+    scanf("%s", &h);
+    return 0;
 }
